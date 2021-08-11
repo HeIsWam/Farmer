@@ -30,9 +30,11 @@ body{
 } */
 .company-name{
     flex:2;
+    text-align: center;
 }
 .menu{
     flex:5;
+    text-align: center;
 }
 .company-name h1{
     margin:auto 0px;
@@ -43,6 +45,7 @@ body{
 }
 ul{
     list-style-type:none;
+    padding:0;
 }
 .menu li{
     display:inline-block;
