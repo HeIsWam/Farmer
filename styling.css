@@ -82,8 +82,7 @@ ul{
     -webkit-transition-duration: 0.5s;
 }
 .menu a:hover{
-    border-top: 5px solid #000;
-    border-bottom: 5px solid black;   
+    border-bottom: 3px solid black;   
 }
 main{
     font-family: sans-serif,serif,verdana !important;
