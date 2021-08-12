@@ -287,11 +287,7 @@ footer{
         font-size:16px;
         padding: 5px 10px;
     }
-    .menu li:hover{
-        text-decoration:underline;
-        font-size:16.2px;
-        transition:font-size 1s ease;
-    }
+
     .testimonal-caresol .grid-container {
         grid-template-columns: auto auto;
     }      
@@ -329,11 +325,7 @@ footer{
         font-size:14px;
         padding: 5px 2px;
     }
-    .menu li:hover{
-        text-decoration:underline;
-        font-size:14.2px;
-        transition:font-size 1s ease;
-    }
+
     .testimonal-caresol .grid-container {
         grid-template-columns: auto;
     }      
