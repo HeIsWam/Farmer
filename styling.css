@@ -74,7 +74,7 @@ main{
     font-family: sans-serif,serif,verdana !important;
 }
 .nav-bar{
-    padding-top:80px;
+/*     padding-top:80px; */
     background: white;
 }
 .carousel-inner > .item > img,
@@ -251,7 +251,7 @@ footer{
         height: 120px;
     }
     .nav-bar{
-        padding-top:120px;
+/*         padding-top:120px; */
     }
     .text-list{
         width: 90%;
@@ -285,7 +285,7 @@ footer{
         height: 120px;
     }
     .nav-bar{
-        padding-top:120px;
+/*         padding-top:120px; */
     }
     .text-list{
         width: 90%;
