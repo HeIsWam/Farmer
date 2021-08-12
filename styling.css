@@ -22,7 +22,6 @@ body{
     justify-content:center;
     box-shadow:0px 0px 5px 1px lightgray;
 /*     position:fixed; */
-
     position: sticky;
     position: -webkit-sticky;
     top: 0; /* required */
@@ -184,14 +183,14 @@ main{
     padding: 5px 0px;
 }
 .contact-info{
-    flex:1.5;
+    flex:1.2;
     /* font-family:'Times New Roman', Times, serif !important; */
     text-align: center;
     padding: 30px;
 }
 
 .timings {
-    flex:1.5;
+    flex:1.8;
     font-size: 18px;
     padding: 30px;
 }
