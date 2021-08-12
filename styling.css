@@ -9,7 +9,7 @@ body{
     background-size: cover;
 }
 .top-bar{
-    background:lightgray;
+    background:#ebeeef;
     height:30px;
     display:block;
 }
@@ -213,7 +213,7 @@ main{
 }
 
 footer{
-    background: white;
+    color: white;
     height:50px;
     background-color: #232f3e;
 }
