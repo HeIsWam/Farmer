@@ -9,11 +9,12 @@ body{
     background-size: cover;
 }
 .top-bar{
-    background:#ebeeef;
-    height:30px;
+/*     background:#ebeeef; */
+/*     height:30px; */
+    height:max-content;
     display:block;
     font-size:20px;
-    text-align:right;
+    text-align:center;
     color:gray;
 }
 .top-bar i{
