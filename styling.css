@@ -68,13 +68,19 @@ ul{
     padding:5px 15px;
 }
 .menu li:hover{
-    text-decoration:underline;
+    
+/*     text-decoration:underline;
     font-size:20.2px;
-    transition:font-size 1s ease;
+    transition:font-size 1s ease; */
 }
 .menu a{
+    transition: 0.3s ease;
     text-decoration:none;
     color:black;
+}
+.menu a:hover{
+    border-top: 5px solid #000;
+    border-bottom: 5px solid black;   
 }
 main{
     font-family: sans-serif,serif,verdana !important;
