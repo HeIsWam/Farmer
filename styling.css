@@ -8,6 +8,11 @@ body{
     background-repeat: repeat;
     background-size: cover;
 }
+.top-bar{
+    background:lightgray;
+    height:30px;
+    display:block;
+}
 .menu-bar{
     background: rgb(255, 204, 0);
     padding: 0px 10px;
