@@ -12,10 +12,12 @@ body{
     background:#ebeeef;
     height:30px;
     display:block;
-    font-size:18px;
-    text-align:center;
-    padding:0px 10px;
+    font-size:20px;
+    text-align:right;
     color:gray;
+}
+.top-bar i{
+ margin:0px 10px;   
 }
 .menu-bar{
     background: rgb(255, 204, 0);
@@ -252,6 +254,9 @@ footer{
     }            
 }
 @media screen and (max-width: 780px) {
+    .top-bar{
+        text-align:center;
+    }
     .menu-bar{
         flex-direction: column;
         height: 120px;
@@ -286,6 +291,9 @@ footer{
     }          
 }
 @media screen and (max-width: 500px) {
+    .top-bar{
+        text-align:center;
+    }
     .menu-bar{
         flex-direction: column;
         height: 120px;
