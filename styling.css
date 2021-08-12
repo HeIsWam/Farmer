@@ -21,7 +21,8 @@ body{
     align-items:center;
     justify-content:center;
     box-shadow:0px 0px 5px 1px lightgray;
-    position:fixed;
+/*     position:fixed; */
+    position:sticky;
     left:0;
     right:0;
     z-index: 1;
