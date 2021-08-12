@@ -74,9 +74,11 @@ ul{
     transition:font-size 1s ease; */
 }
 .menu a{
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     text-decoration:none;
     color:black;
+    -webkit-transition-property: top, bottom;
+    -webkit-transition-duration: 0.5s;
 }
 .menu a:hover{
     border-top: 5px solid #000;
