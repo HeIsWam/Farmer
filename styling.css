@@ -117,6 +117,7 @@ main{
 }
 .text-list h3{
     font-weight:bold;
+    text-align:center;
 }
 .text-list p{
     line-height: 25px;
