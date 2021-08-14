@@ -22,7 +22,7 @@ body{
     top: 0; /* required */
     left:0;
     right:0;
-    z-index: 1;
+    z-index: 2;
 }
 .menu-bar img{
     width: 80px;
@@ -86,6 +86,9 @@ main{
     margin: auto;
     background: white;
 }
+.carousel-indicators {
+    z-index: 1;
+}
 .content-bar{
     display: flex;
     flex-direction: column;
@@ -94,10 +97,12 @@ main{
     background: white;
 }
 .content-head{
+    content: '';
     font-size: 30px;
     padding: 10px;
     font-weight: bold;
     border-bottom:2px dashed #333;
+    /* display: none; */
 }
 .text-list{
     display: flex;
@@ -108,12 +113,12 @@ main{
 }
 .text-list img{
     flex:1;
-    width: 350px;
+    width: 100%;
     height: 350px;
 }
 .text-list .separate{
     flex:1.5;    
-    padding: 10px 40px;
+    padding: 0px 40px;
 }
 .text-list h3{
     font-weight:bold;
@@ -122,7 +127,7 @@ main{
     margin:10px 0px;
 }
 .text-list p{
-    line-height: 25px;
+    line-height: 30px;
     font-size: 20px;
 }
 .second-bar{
@@ -226,11 +231,12 @@ main{
 
 footer{
     color: white;
-    height:50px;
+    height:max-content;
     background-color: #232f3e;
     text-align:center;
     position:relative;
     bottom:0;
+    font-family: serif, sans-serif;
 }
 .top-bar{
 /*     background:#ebeeef; */
@@ -285,6 +291,7 @@ footer{
     }
     .text-list{
         width: 90%;
+        align-items: start;
     }
     .testimonal-caresol .grid-item {
         height: 250px;
@@ -319,6 +326,7 @@ footer{
     .text-list{
         width: 90%;
         flex-direction: column;
+        align-items: center;
     }
     .text-list img{
         width: 300px;
