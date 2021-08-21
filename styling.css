@@ -61,6 +61,20 @@ body{
     text-shadow: 1.5px 1px 0 gray;
     /* color: linear-gradient(To Right,black,brown); */
 }
+.company-name .slogan{
+    display:inline-block;
+    position:relative;
+    vertical-align: middle;
+}
+.company-name .slogan p{
+    color:#333;
+    padding: 0;
+    height: 0;
+    line-height: 0;
+    text-align: end;
+    font-size: 12px;
+    /* display: none; */
+}
 ul{
     list-style-type:none;
     padding:0;
@@ -100,6 +114,9 @@ main{
     margin: auto;
     background: white;
 }
+.carousel-caption {
+    text-shadow: 3px 1px 3px rgb(0 0 0);
+}
 .carousel-indicators {
     z-index: 1;
 }
@@ -112,7 +129,7 @@ main{
 }
 .content-head{
     content: '';
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
     font-weight: bold;
     border-bottom:2px dashed #333;
@@ -157,9 +174,12 @@ main{
 .comments-head span{
     font-size: 28px;
     font-weight: bold;
-    border-bottom:2px dashed ;
-    margin: 10px 0px;
-/*     text-shadow:0px 0px 5px 2px white; */
+    /* border-bottom:2px dashed ; */
+    /* text-shadow:3px 1px 4px white; */
+    border-radius: 30px;
+    margin: 10px 10px;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 0px 10px;
 }
 /* .testimonal-caresol{
 } */
